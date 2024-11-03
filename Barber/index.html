@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Notícias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>NBA Notícias</h1>
+        <nav>
+            <ul>
+                <li><a href="#noticias" class="tab-link active" onclick="openTab(event, 'noticias')">Notícias</a></li>
+                <li><a href="#resultados" class="tab-link" onclick="openTab(event, 'resultados')">Artigos</a></li>
+                <li><a href="#classificacao" class="tab-link" onclick="openTab(event, 'classificacao')">Classificação</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="noticias" class="tab-content active">
+            <h2>Últimas Notícias</h2>
+            <article>
+                <h3>Título do Artigo</h3>
+                <p>Resumo ou conteúdo do artigo...</p>
+                <a href="#">Leia mais</a>
+            </article>
+            <!-- Mais artigos aqui -->
+        </section>
+
+        <section id="resultados" class="tab-content">
+            <h2>Artigos Recentes</h2>
+            <article>
+                <h3>Título do Artigo 1</h3>
+                <p>Resumo do conteúdo do artigo 1...</p>
+                <a href="#">Leia mais</a>
+            </article>
+            <article>
+                <h3>Título do Artigo 2</h3>
+                <p>Resumo do conteúdo do artigo 2...</p>
+                <a href="#">Leia mais</a>
+            </article>
+            <!-- Mais artigos aqui -->
+        </section>
+
+        <section id="classificacao" class="tab-content">
+            <h2>Classificação</h2>
+            <div class="standings-images">
+                <div>
+                    <img src="Captura de ecrã 2024-11-03 201332.png" alt="Conferência Leste">
+                    <p>Classificação da Conferência Leste</p>
+                </div>
+                <div>
+                    <img src="Captura de ecrã 2024-11-03 201855.png" alt="Conferência Oeste">
+                    <p>Classificação da Conferência Oeste</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
